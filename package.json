@@ -1,6 +1,6 @@
 {
   "name": "polymer-skeleton",
-  "version": "1.0.0-beta-3",
+  "version": "1.0.0-beta-4",
   "main": "src/index.js",
   "license": "MIT",
   "author": "LasaleFamine <info@godev.space>",
@@ -24,6 +24,7 @@
     "linkbower": "node scripts/link-bower.js",
     "rmbower": "node scripts/link-bower.js remove",
     "release": "standard-version",
+    "postinstall": "node scripts/postinstall.js",
     "start": "http-server dist -p $PORT"
   },
   "xo": {
@@ -70,6 +71,6 @@
     "xo": "0.18.2"
   },
   "dependencies": {
-    "@polymer/polymer": "3.0.0-pre.9"
+    "@polymer/polymer": "3.0.0-pre.12"
   }
 }
